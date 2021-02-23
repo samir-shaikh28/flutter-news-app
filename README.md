@@ -4,6 +4,8 @@
 
 Newspaper is a cross platform app built using flutter. currently it is in under development. Purpose of this project is to demonstrate bloc architure using RxDart.
 
+![List of top headlines](video/top_headlines.gif)
+
 
 ## What can i learn from this project?
 
