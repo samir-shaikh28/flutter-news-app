@@ -9,7 +9,7 @@ class RowArticle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+      margin: EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -24,7 +24,7 @@ class RowArticle extends StatelessWidget {
               )),
           Expanded(
             child: Container(
-              margin: EdgeInsets.only(left: 10.0),
+              margin: EdgeInsets.only(left: 12.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
