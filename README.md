@@ -7,6 +7,10 @@ Newspaper is a cross platform app built using flutter. currently it is in under 
 ![List of top headlines](video/top_headlines.gif)
 
 
+## How to run? 
+
+Get your API key for free from [NewsApi](https://newsapi.org/) and add it in [constant.dart](https://github.com/samir-shaikh28/flutter-news-app/blob/master/lib/constant.dart) file.
+
 ## What can i learn from this project?
 
 - How to implement a flutter project using BloC architecture with RxDart.
