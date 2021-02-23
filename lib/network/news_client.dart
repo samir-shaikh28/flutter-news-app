@@ -12,6 +12,7 @@ class NewsClient {
     final response = await _client.get(
         "${Constants.BASE_URL}/top-headlines?country=us&apiKey=${Constants.API_KEY}");
     if (response.statusCode == 200) {
+      print(response.body);
       // If the call to the server was successful, parse the JSON
       return TopHeadlinesModel.fromJson(json.decode(response.body));
     } else {

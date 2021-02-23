@@ -26,10 +26,10 @@ class Article {
   Article(article) {
     source = Source(article['source']);
     author = article['author'];
-    title = article['title'];
-    description = article['description'];
+    title = article['title'] ?? "";
+    description = article['description'] ?? "";
     url = article['url'];
-    urlToImage = article['urlToImage'];
+    urlToImage = article['urlToImage'] ?? "";
     publishedAt = article['publishedAt'];
     content = article['content'];
   }
