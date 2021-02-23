@@ -15,7 +15,6 @@ class _HomeState extends State<Home> {
   _makeNewsItemList(BuildContext context, List<Article> headlineData) {
     return ListView.builder(
         physics: BouncingScrollPhysics(),
-        padding: EdgeInsets.only(left: 10.0),
         scrollDirection: Axis.vertical,
         itemCount: headlineData.length,
         itemBuilder: (BuildContext context, int index) {
